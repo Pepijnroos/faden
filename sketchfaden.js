@@ -76,7 +76,7 @@ function draw(){
   
   textSize(30);
   fill(255,0,255);
-  text(time,40,70);
+  text(time,30,60);
   
   // Update each ship
   for (i = 0; i < ships.length; i++){
