@@ -94,7 +94,7 @@ function draw(){
   text("Individual slave transports to Berbice, Demerara, Essequibo and Surinam, 1757-1793",520,35);
   text("Legend",60,775);
   image(legendshp,10,785);
-  fill(255,30,255);
+  fill(0,0,255);
   textSize(20);
   text("Essequibo",50,620);
   text("Demerara",285,700);
