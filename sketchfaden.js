@@ -88,8 +88,15 @@ function draw(){
   ellipse(515,748,20,20); 
   ellipse(279,641,20,20);
   ellipse(187,626,20,20); 
-  ellipse(40,875,20,20); 
-  
+  ellipse(40,900,20,20); 
+  fill(0,0,0);
+  textSize(20);
+  text("Individual slave transports to Berbice, Demerara, Essequibo and Surinam, 1658-1713",520,35);
+  fill(255,30,255);
+  text("Essequibo",140,620)
+  text("Demerara",285,680)
+  text("Berbice",480,780)
+  text("Surinam",1050,905)
   // Update each ship
   for (i = 0; i < ships.length; i++){
     current_ship = ships[i]
