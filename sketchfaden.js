@@ -99,7 +99,7 @@ function draw(){
   text("Essequibo",50,620);
   text("Demerara",285,700);
   text("Berbice",430,790);
-  text("Surinam",820,855);
+  text("Surinam",820,865);
   textSize(15);
   fill(0,0,0)
   text("Ship",100,825);
