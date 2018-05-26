@@ -96,14 +96,14 @@ function draw(){
   image(legendshp,10,785);
   fill(255,30,255);
   textSize(20);
-  text("Essequibo",70,620);
+  text("Essequibo",50,620);
   text("Demerara",285,700);
-  text("Berbice",480,790);
-  text("Surinam",900,905);
+  text("Berbice",430,790);
+  text("Surinam",900,855);
   textSize(15);
   fill(0,0,0)
   text("Ship",100,825);
-  text("Slave port",100,900);
+  text("Slave port",100,910);
   textSize(10);
   text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",1059,915);
   text("Map: David Rumsey Map Collection, William Faden, Guyana coast, 1783.",1059,935);
