@@ -80,7 +80,7 @@ function draw(){
   text(time,30,60);
   
   fill(255,255,255); 
-  rect(500,0,500,50);
+  rect(500,0,800,50);
   rect(0,750,200,205);
   rect(1029,895,400,60);
   fill(255,30,255);
@@ -98,6 +98,9 @@ function draw(){
   text("Demerara",285,690)
   text("Berbice",480,790)
   text("Surinam",950,905)
+  
+  
+  
   // Update each ship
   for (i = 0; i < ships.length; i++){
     current_ship = ships[i]
