@@ -91,13 +91,21 @@ function draw(){
   ellipse(40,900,20,20); 
   fill(0,0,0);
   textSize(20);
-  text("Individual slave transports to Berbice, Demerara, Essequibo and Surinam, 1658-1713",520,35);
+  text("Individual slave transports to Berbice, Demerara, Essequibo and Surinam, 1757-1793",520,35);
+  text("Legend",60,775);
+  image(legendshp,10,785);
   fill(255,30,255);
   textSize(27);
-  text("Essequibo",90,620)
-  text("Demerara",285,690)
-  text("Berbice",480,790)
-  text("Surinam",950,905)
+  text("Essequibo",90,620);
+  text("Demerara",285,690);
+  text("Berbice",480,790);
+  text("Surinam",950,905);
+  textSize(15);
+  text("Ship",100,815);
+  text("Slave port,100,880);
+  textSize(10);
+  text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",1059,915);
+  text("Map: David Rumsey Map Collection, William Faden, Guyana coast, 1783.",1059,935);
   
   
   
