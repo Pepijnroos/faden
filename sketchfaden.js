@@ -102,7 +102,7 @@ function draw(){
   text("Surinam",950,905);
   textSize(15);
   text("Ship",100,815);
-  text("Slave port,100,880);
+  text("Slave port",100,880);
   textSize(10);
   text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",1059,915);
   text("Map: David Rumsey Map Collection, William Faden, Guyana coast, 1783.",1059,935);
