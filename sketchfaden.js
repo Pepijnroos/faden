@@ -76,8 +76,19 @@ function draw(){
   image(stars, 0, 0);
   
   textSize(30);
-  fill(255,0,255);
+  fill(255,255,255);
   text(time,30,60);
+  
+  fill(255,255,255); 
+  rect(500,0,500,50);
+  rect(0,750,200,205);
+  rect(1029,895,400,60);
+  fill(255,30,255);
+  ellipse(1011,879,20,20);
+  ellipse(515,748,20,20); 
+  ellipse(279,641,20,20);
+  ellipse(187,626,20,20); 
+  ellipse(40,875,20,20); 
   
   // Update each ship
   for (i = 0; i < ships.length; i++){
